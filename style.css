@@ -2731,7 +2731,7 @@ overflow:hidden;
  New Css Styels
  ================================*/
  .card_div {
-	 margin-top: 8%;
+	 margin-top: 6%;
 	 position: absolute;
 	 width: 200%;
 	 z-index: 1;
@@ -2739,9 +2739,9 @@ overflow:hidden;
  }
  .card_holder {
 	 position: relative;
-	 width: 30%;
+	 width: 20%;
 	 overflow: hidden;
-	 left: 25%;
+	 left: 22%;
 	 
 	 animation: 5s card ;
 	 animation-iteration-count: initial;
@@ -2783,7 +2783,7 @@ overflow:hidden;
 
 
 100% {
-	left: 25%;
+	left: 22%;
 }
 	
  }
@@ -2791,7 +2791,7 @@ overflow:hidden;
  /*************** 2nd Card **********/
 
  .card_div2 {
-	margin-top: 8%;
+	margin-top: 6%;
 	position: absolute;
 	width: 200%;
 	z-index: 1;
@@ -2799,9 +2799,9 @@ overflow:hidden;
 }
 .card_holder2 {
 	position: relative;
-	width: 30%;
+	width: 20%;
 	overflow: hidden;
-	left: 0%;
+	left: -5%;
 	animation: 4s card2 initial;
 	
 }
@@ -2816,6 +2816,6 @@ overflow:hidden;
 	}
 	
 	100% {
-		left: 0%;
+		left: -5%;
 	}
 }
