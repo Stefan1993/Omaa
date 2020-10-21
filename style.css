@@ -2787,6 +2787,60 @@ overflow:hidden;
 }
 	
  }
+ @media only screen and (max-width: 1024px) {
+	 
+	.card_div {
+		margin-top: 12%;
+		position: absolute;
+		width: 200%;
+		z-index: 1;
+		
+	}
+
+	.card_holder {
+		position: relative;
+		width: 20%;
+		overflow: hidden;
+		left: 26%;
+		
+		animation: 5s card ;
+		animation-iteration-count: initial;
+	}
+
+	@keyframes card {
+		0% { 
+			left: -50%;
+		}
+		10%{
+		   opacity: 10%;
+		}
+		20% {
+			opacity: 20%;
+		}
+		30% {
+			opacity: 30%;
+		}
+		40% {
+			opacity: 40%;
+		}
+		50% {
+			opacity: 50%;
+		}
+		60% {
+			opacity: 60%;
+		}
+		70% {
+			opacity: 70%;
+		}
+		
+	
+	
+	
+	100% {
+		left: 26%;
+	}
+	
+  }}
 
  /*************** 2nd Card **********/
 
@@ -2810,12 +2864,33 @@ overflow:hidden;
    
    
 }
-@keyframes card2 {
-	0% {
-		left: 50%;
-	}
+
+
+/************ GIFT Card ***********/
+.gift_icon {
+	color: #29B6F6;
+	font-size: 72px;
+}
+.div_card{
+	padding: 20px;
+	font-family: 'Work Sans', sans-serif;
+}
+.div_cards {
+	border-right: 1px solid rgb(207, 204, 204);
+	height:320px;
+	padding: 20px;
 	
-	100% {
-		left: -5%;
-	}
+}
+.card_title {
+	padding-bottom: 20px;
+	margin-top: 20px;
+	font-family: 'Work Sans', sans-serif;
+	
+	
+}
+.div_card_holder {
+	margin-top: 40px;
+}
+.div_card_holder2 {
+	border-top:1px solid rgb(207, 204, 204) ;
 }
