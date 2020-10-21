@@ -2894,3 +2894,7 @@ overflow:hidden;
 .div_card_holder2 {
 	border-top:1px solid rgb(207, 204, 204) ;
 }
+
+.important_text {
+	color: #29B6F6;
+}
