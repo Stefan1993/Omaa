@@ -607,6 +607,7 @@ Version: 1.2
 	position: relative;
 	margin-top: 50px;
 	padding-left: 70px;
+	height: 180px;
 }
 .features .single-features i {
 	position: absolute;
@@ -629,6 +630,26 @@ Version: 1.2
 }
 .features .single-features p {
 	color:#999;
+}
+.long_text {
+	display: none;
+}
+
+.single-features:hover .shorter_text {
+	display: none;
+}
+.single-features:hover p{
+	
+	transition: 0.35s ease-in-out;
+	background-color: #29b5f600;
+	text-align: left;
+	padding: 3px;
+	border-radius: 5px;
+	
+}
+
+.single-features:hover .long_text{
+	display: block;
 }
 /*===============================
 	End Features Style
@@ -983,6 +1004,7 @@ Version: 1.2
     background-color: rgba(0, 0, 0, .45);
 }
 .testimonial .testimonial-content{
+	
 	text-align:center;
 	padding:0 200px;
 }
@@ -991,8 +1013,10 @@ Version: 1.2
 	font-size: 36px;
 	margin-bottom: 45px;
 }
-.testimonial .testimonial-content p {
-    color: #f5f5f5;
+.testimonial .testimonial-content h4 {
+	padding-top: 10px;
+	color: #f5f5f5;
+	font-style: italic;
     font-size: 18px;
 	line-height:28px;
 	position:relative;
@@ -2730,6 +2754,8 @@ overflow:hidden;
 /*================================
  New Css Styels
  ================================*/
+ 
+ 
  .card_div {
 	 margin-top: 6%;
 	 position: absolute;
@@ -2748,9 +2774,11 @@ overflow:hidden;
  }
  .card_animated {
 	width: 80%;
-	
+
 	
  }
+
+ 
 
 
  @keyframes card {
@@ -2865,6 +2893,10 @@ overflow:hidden;
    
 }
 
+.text_short {
+	font-size: 16px;
+}
+
 
 /************ GIFT Card ***********/
 .gift_icon {
@@ -2872,12 +2904,15 @@ overflow:hidden;
 	font-size: 72px;
 }
 .div_card{
+	
 	padding: 20px;
 	font-family: 'Work Sans', sans-serif;
+	height:360px;
 }
 .div_cards {
+	
 	border-right: 1px solid rgb(207, 204, 204);
-	height:320px;
+	height:360px;
 	padding: 20px;
 	
 }
@@ -2897,4 +2932,74 @@ overflow:hidden;
 
 .important_text {
 	color: #29B6F6;
+}
+
+.div_cards:hover{
+	border-radius: 4px;
+	background: linear-gradient(#00b4db,
+	#0083b0);
+	box-shadow: 1px 1px 1px 1px rgba(44, 44, 44, 0.452);
+	border: 0px;
+	
+	
+	
+}
+.div_cards:hover i,.long_text1{
+	color: white;
+	text-align: left;
+	
+}
+.div_cards p{
+	padding-bottom: 5px;
+}
+.div_card:hover{
+	border: none;
+	overflow: visible;
+	border-radius: 4px;
+	background: linear-gradient(#00b4db,
+	#0083b0);
+	box-shadow: 1px 1px 1px 1px rgba(44, 44, 44, 0.452);
+	
+}
+.div_card:hover i,.long_text1{
+	color: white;
+	
+   
+}
+.div_card_scroll:hover{
+	overflow-y: scroll;
+}
+.div_card_scroll:hover::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.div_cards:hover{
+   border-radius: 4px;
+   background-color: linear-gradient(#00b4db,
+   #0083b0);
+   box-shadow: 1px 1px 1px 1px rgba(44, 44, 44, 0.452);
+  
+   
+}
+.div_cards:hover i,.long_text1{
+   color: white;
+}
+.div_cards:hover .long_text1 {
+	
+	display: block;
+}
+.div_cards:hover .text_short{
+	display: none;
+}
+.div_card:hover .long_text1 {
+   display: block;
+}
+.div_card:hover .text_short{
+   display: none;
+}
+
+.long_text1{
+	display: none;
 }
