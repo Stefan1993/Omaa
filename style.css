@@ -3292,45 +3292,8 @@ background-color: #00b4db;
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
-/**************OMA sema***********/
 
-.OMA_sema h1 {
-	margin-top: 100px;
-	padding: 50px;
-	padding-bottom: 150px;
-	font-weight: bold;
-	position: relative;
 
-}
-.OMA_sema h1::before {
-  content: '';
-  background-color: #00b4db;
-  width: 25%;
-  height: 2%;
-  top: 40%;
-  left: 36%;
-  position: absolute;
-}
-.OMA_sema h1::after {
-	content: '';
-	background-color: #00b4db;
-	width: 25%;
-	height: 2%;
-	top: 50%;
-	left: 38%;
-	position: absolute;
-  }
-  .scheme_wrapper {
-	  padding-left: 20px;
-	  padding-bottom: 40px;
-  }
-  .scheme_wrapper h2{
-	  padding:10px;
-	  padding-bottom: 30px;
-  }
-  .scheme_wrapper h4{
-	 padding: 10px;
-  }
 /*********lolaty_cards_start*************/
 .loyalty_row_wrapper {
 	padding-top: 50px;
@@ -3437,6 +3400,160 @@ text-align: left;
 	left: 0;
 	top: 70%;
 }
+/***********Loyakty Scheme ************/
+
+
+
+@keyframes scheme-animation {
+	1% {
+		transform: rotateZ(0deg);
+	}
+	100%{
+		transform: rotateZ(360deg)
+	}
+}
+@keyframes scheme-animation2 {
+	1% {
+		transform: rotateZ(0deg);
+	}
+	100%{
+		transform: rotateZ(-360deg)
+	}
+}
+
+@keyframes transform-animation {
+	1% {
+		transform: scaleY(1);
+	}
+	100% {
+		transform: scaleY(1.3);
+	}
+}
+
+
+.OMA_sema {
+	background-color: #eeeeee;
+	padding-bottom: 100px;
+}
+.OMA_sema h1{ 
+	margin-top: 100px;
+	font-weight: 900;
+	font-family: 'work-Sans',sans-serif;
+	color: rgb(33, 33, 39);
+}
+.OMA_sema span{
+	color: #00b4db;
+	font-family: 'work-Sans',sans-serif;
+	font-weight: bold;
+}
+.scheme-row {
+	position: relative;
+    height: 370px;
+	margin-top: 20px;
+}
+.col-scheme {
+	position: relative;
+	background-color: white;
+	width: 461.67px;
+	margin-top: 60px;
+	margin-left:180px;
+	text-align: center;
+	height:100%;
+	border-radius: 4px;
+	box-shadow: 1px 2px 2px 2px #2323282d;
+}
+.scheme_icon {
+	padding: 20px;
+	font-size: 120px;
+	text-align: center;
+	color: #00b4db;
+}
+.col-scheme h2 {
+	padding-bottom: 20px;
+	margin-top: 20px;
+	font-weight: 900;
+	color: #1D1D21;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-scheme h3 {
+	padding-bottom: 20px;
+	margin-top: 20px;
+	font-weight: 900;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-scheme h3::after {
+	position: absolute;
+	content: "";
+	left: 40%;
+	top: 70%;
+	height: 3px;
+	width: 20%;
+	background: #00b4db;
+}
+
+.col-scheme h2::before{
+	position: absolute;
+	content: "";
+	left: 40%;
+	top: 60%;
+	height: 5px;
+	width: 20%;
+	background: #00b4db;
+}
+.col-scheme p {
+	
+	position: absolute;
+	line-height: 30px;
+	font-size: 1.5rem;
+	background-color:white;
+	right: 0px;
+	bottom: 0px;
+	height: 1%;
+	width: 1%;
+	overflow: hidden;
+	color: white;
+	font-family: 'work-Sans',sans-serif;
+}
+.col-scheme:hover p{
+	overflow-y: visible;
+	padding: 30px;
+	margin-top: 40px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: width 0.8s,height 0.8s,background-color 0.8s;
+	color:#e0f9ff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 2rem;
+	background-color:  #363636bb;
+}
+
+.col-scheme:hover h2 {
+	display: none;
+}
+.col-scheme:hover h3 {
+	display: none;
+}
+
+
+.col-scheme:hover .scheme_icon {
+	margin-top: 20%;
+	transition: 0.8;
+}
+.col-scheme:hover .loop_sign {
+	display: none;
+}
+
+.loop_sign {
+	position: absolute;
+	bottom: 10%;
+	left: 80%;
+	font-size: 42px;
+	color: #00b4db;
+}
+
+
 
 
 
