@@ -3300,6 +3300,12 @@ background-color: #00b4db;
 
 
 /*********lolaty_cards_start*************/
+@media only screen and (max-width: 1200px) {
+	.loyalty_row_wrapper i {
+		display: none;
+	}
+  }
+
 .loyalty_row_wrapper {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -3313,9 +3319,9 @@ background-color: #00b4db;
 	color: #00b4db;
 	left: 60%;
 	top: 30px;
-	position: absolute;
+	
 	padding: 10px;
-	font-size: 220px;
+	font-size: 25rem;
 }
 .loyalty_row_wrapper h1{
 	position: relative;
@@ -3405,7 +3411,7 @@ text-align: left;
 	left: 0;
 	top: 70%;
 }
-/***********Loyakty Scheme ************/
+/***********Loyalty Scheme ************/
 
 
 
@@ -3454,23 +3460,29 @@ text-align: left;
 }
 .scheme-row {
 	position: relative;
-    height: 370px;
+	
 	margin-top: 20px;
 }
+
+@media only screen and (max-width: 991px) {
+	.col-scheme {
+		margin-left: 40%;
+	}
+  }
 .col-scheme {
+	margin-left: 10%;
 	position: relative;
 	background-color: white;
-	width: 420.67px;
+	max-width: 370px;
 	margin-top: 60px;
-	margin-left:180px;
 	text-align: center;
-	height:100%;
+	height:370px;
 	border-radius: 4px;
 	box-shadow: 1px 2px 2px 2px #2323282d;
 }
 .scheme_icon {
 	padding: 20px;
-	font-size: 120px;
+	font-size: 10rem;
 	text-align: center;
 	color: #00b4db;
 }
@@ -3592,12 +3604,12 @@ text-align: left;
 }
 
 .gift-section-wraper h2{
-  margin-left: 400px;
+  margin-left:px;
   padding: 20px;
   position: relative;
 }
 .gift-section-wraper p{
-	margin-left: 400px;
+	
 	padding: 20px;
 	font-size: 1.5rem;
 	line-height: 30px;
@@ -3613,7 +3625,7 @@ text-align: left;
 	background-color: #00b4db;
   }
   .gift-section-wraper img{
-	  margin-left: 100px;
+	 
 	  height: 260px;
 	  margin-top: 60px;
   }
@@ -3638,7 +3650,7 @@ text-align: left;
 	font-family: 'work-sans',sans-serif;
 	font-weight: 600;
 	padding: 40px;
-	margin-left:140px;
+	
 	position: relative;
   }
   .pogodnosti_wrap h2::after{
@@ -3656,7 +3668,7 @@ text-align: left;
   }
   .gift_wrap_items {
 	  position: relative;
-	  width: 33%;
+	  
 	  margin-top: 20px;
   }
   .gift_wrap_items h4{
@@ -3664,7 +3676,8 @@ text-align: left;
 	font-family: 'work-Sans',sans-serif;
 	font-size: 1.7rem;
 	padding: 10px;
-	margin-left: 35%;
+	text-align:start;
+	margin-left: 34%;
 	font-weight: 500;
   }
   .gift_wrap_items p{
